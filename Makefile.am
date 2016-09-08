@@ -4,7 +4,8 @@ EXTRA_DIST = \
 	clr-desktop-files.sh \
 	clr-desktop-files.desktop.in \
 	lightdm/clr-gtk-greeter.conf \
-	lightdm/clr-lightdm.conf
+	lightdm/clr-lightdm.conf \
+	lightdm/users.conf
 
 xdgdir = $(datadir)/xdg/autostart
 
@@ -22,3 +23,9 @@ lightdm_gtk_conf_DATA = \
 lightdm_confdir = $(datadir)/lightdm/lightdm.conf.d
 lightdm_conf_DATA = \
 	lightdm/clr-lightdm.conf
+
+# Note that this currently relies on a stateless patch within Clear Linux to
+# support a $(datadir)/lightdm/users.conf file
+lightdm_vendor_confdir = $(datadir)/lightdm
+lightdm_vendor_conf_DATA = \
+	lightdm/users.conf
