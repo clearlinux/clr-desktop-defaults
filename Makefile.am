@@ -1,3 +1,17 @@
+GNOME_SCHEMAS = \
+	schemas/org.gnome.desktop.background.gschema.override \
+	schemas/org.gnome.desktop.interface.gschema.override \
+	schemas/org.gnome.desktop.screensaver.gschema.override \
+	schemas/org.gnome.desktop.wm.preferences.gschema.override \
+	schemas/org.gnome.settings-daemon.plugins.xsettings.gschema.override
+
+%.gschema.override:
+	rm -f $@ ;
+	for i in ${GNOME_SCHEMAS} ; do \
+	    cat $${i} >> $@; \
+	    echo  >> $@; \
+	done ;
+
 EXTRA_DIST = \
 	LICENSE \
 	README.md \
@@ -5,7 +19,8 @@ EXTRA_DIST = \
 	clr-desktop-files.desktop.in \
 	lightdm/clr-gtk-greeter.conf \
 	lightdm/clr-lightdm.conf \
-	lightdm/users.conf
+	lightdm/users.conf \
+	$(GNOME_SCHEMAS)
 
 xdgdir = $(datadir)/xdg/autostart
 
@@ -29,3 +44,14 @@ lightdm_conf_DATA = \
 lightdm_vendor_confdir = $(datadir)/lightdm
 lightdm_vendor_conf_DATA = \
 	lightdm/users.conf
+
+# Combine all our individual schema files into a single override and install
+# to the glib schemas dir
+overridesdir = \
+	$(datadir)/glib-2.0/schemas
+
+overrides_DATA = \
+	10_gnome_settings.gschema.override
+
+distclean-local:
+	rm -fv ${top_builddir}/10_gnome_settings.gschema.override

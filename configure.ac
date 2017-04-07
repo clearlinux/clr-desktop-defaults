@@ -1,5 +1,5 @@
 AC_INIT([clr-desktop-defaults], 4, [michael.i.doherty@intel.com], [clr-desktop-defaults], [https://clearlinux.org/])
-AM_INIT_AUTOMAKE([-Wno-portability no-dist-gzip dist-xz foreign subdir-objects])
+AM_INIT_AUTOMAKE([-Wno-portability no-dist-gzip dist-xz foreign subdir-objects 1.9 tar-ustar])
 AC_PREFIX_DEFAULT(/usr/local)
 AM_SILENT_RULES([yes])
 AC_CONFIG_FILES([Makefile
