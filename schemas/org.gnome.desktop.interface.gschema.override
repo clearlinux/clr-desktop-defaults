@@ -1,3 +1,4 @@
 [org.gnome.desktop.interface]
 font-name='Clear Sans 10'
 gtk-theme='Arc'
+icon-theme='Moka'
