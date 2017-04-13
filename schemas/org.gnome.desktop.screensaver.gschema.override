@@ -1,2 +1,2 @@
-[org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/clearlinux/wallpaper_4K_01.jpg'
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/clearlinux/color_logo_wire_2560x1440.png'
