@@ -3,9 +3,12 @@ GNOME_SCHEMAS = \
 	schemas/org.gnome.desktop.interface.gschema.override \
 	schemas/org.gnome.desktop.screensaver.gschema.override \
 	schemas/org.gnome.desktop.wm.preferences.gschema.override \
+	schemas/org.gnome.nautilus.icon-view.gschema.override \
+	schemas/org.gnome.nautilus.preferences.gschema.override \
 	schemas/org.gnome.settings-daemon.plugins.xsettings.gschema.override \
 	schemas/org.gnome.shell.extensions.user-theme.gschema.override \
-	schemas/org.gnome.shell.gschema.override
+	schemas/org.gnome.shell.gschema.override \
+	schemas/org.gtk.Settings.FileChooser.gschema.override
 
 %.gschema.override:
 	rm -f $@ ;
