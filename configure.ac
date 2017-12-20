@@ -4,6 +4,8 @@ AC_PREFIX_DEFAULT(/usr/local)
 AM_SILENT_RULES([yes])
 AC_CONFIG_FILES([Makefile
                  clr-desktop-files.desktop])
+systemdlogindconfdir="/usr/lib/systemd/logind.conf.d"
+AC_SUBST(systemdlogindconfdir)
 
 
 AC_OUTPUT
@@ -19,4 +21,5 @@ AC_MSG_RESULT([
         exec_prefix:            ${exec_prefix}
         bindir:                 ${bindir}
         datarootdir:            ${datarootdir}
+        systemdlogindconfdir:   ${systemdlogindconfdir}
 ])

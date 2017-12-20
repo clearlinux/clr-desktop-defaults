@@ -11,6 +11,10 @@ GNOME_SCHEMAS = \
 	schemas/org.gnome.shell.gschema.override \
 	schemas/org.gtk.Settings.FileChooser.gschema.override
 
+systemdlogindconf_DATA = \
+	logind.conf.d/80-lidswitch.conf
+
+
 %.gschema.override:
 	rm -f $@ ;
 	for i in ${GNOME_SCHEMAS} ; do \
@@ -26,7 +30,8 @@ EXTRA_DIST = \
 	lightdm/clr-gtk-greeter.conf \
 	lightdm/clr-lightdm.conf \
 	lightdm/users.conf \
-	$(GNOME_SCHEMAS)
+	$(GNOME_SCHEMAS) \
+	$(systemdlogindconf_DATA)
 
 xdgdir = $(datadir)/xdg/autostart
 
