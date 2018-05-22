@@ -2,7 +2,7 @@ clr-desktop-defaults
 =====================
 
 Provides default configuration and startup assistance for the desktop experience within
-the `os-utils-gui` bundle.
+the `os-utils-gui` and `desktop` bundles.
 
 
 License
