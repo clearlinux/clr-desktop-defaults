@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Enable flathub (user) repository by default on flatpak
+Comment=Provide an out-of-the-box gnome-software experience
+Exec=@prefix@/libexec/clr-init-flathub-repo
+Terminal=false
+Type=Application
+Categories=
+NoDisplay=true
+OnlyShowIn=GNOME;
