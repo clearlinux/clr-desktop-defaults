@@ -33,7 +33,7 @@ fi
 
 # check for network  availability prior to run the repo init command
 SECONDS=0
-while ! networkctl --no-legend list | grep -q configured ;  do
+while ! ip a show | grep -q 'state UP' ;  do
 	if [ $SECONDS -gt 60 ] ; then
 		echo "Network timeout: unable to init flahub repository"
 		exit 1 ;
