@@ -1,5 +1,25 @@
-# generate the single-file gschema override from all in the schemas folder
-run_command('merge-settings.sh')
+gnome_schemas = [
+    'org.gnome.desktop.background.gschema.override',
+    'org.gnome.desktop.input-sources.gschema.override',
+    'org.gnome.desktop.interface.gschema.override',
+    'org.gnome.desktop.screensaver.gschema.override',
+    'org.gnome.desktop.wm.preferences.gschema.override',
+    'org.gnome.nautilus.icon-view.gschema.override',
+    'org.gnome.nautilus.preferences.gschema.override',
+    'org.gnome.settings-daemon.plugins.power.gschema.override',
+    'org.gnome.settings-daemon.plugins.xsettings.gschema.override',
+    'org.gnome.shell.extensions.user-theme.gschema.override',
+    'org.gnome.shell.gschema.override',
+    'org.gnome.Terminal.Legacy.Settings.gschema.override',
+    'org.gtk.Settings.FileChooser.gschema.override',
+]
 
-install_data('10_gnome_settings.gschema.override', install_dir : schemasdir)
-
+# Generate single schema override file from all input files using cat redirect
+custom_target('10_gnome_settings.gschema.override',
+    output: '10_gnome_settings.gschema.override',
+    capture: true,
+    input: gnome_schemas,
+    command: ['cat', '@INPUT@'],
+    install: true,
+    install_dir: schemasdir,
+)
