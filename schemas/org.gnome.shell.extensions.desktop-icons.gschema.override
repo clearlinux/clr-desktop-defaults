@@ -1,0 +1,4 @@
+[org.gnome.shell.extensions.desktop-icons]
+icon-size='standard'
+show-home=false
+show-trash=false
