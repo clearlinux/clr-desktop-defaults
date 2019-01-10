@@ -9,6 +9,7 @@ gnome_schemas = [
     'org.gnome.nautilus.preferences.gschema.override',
     'org.gnome.settings-daemon.plugins.power.gschema.override',
     'org.gnome.settings-daemon.plugins.xsettings.gschema.override',
+    'org.gnome.shell.extensions.dash-to-dock.gschema.override',
     'org.gnome.shell.extensions.user-theme.gschema.override',
     'org.gnome.shell.gschema.override',
     'org.gnome.Terminal.Legacy.Settings.gschema.override',
