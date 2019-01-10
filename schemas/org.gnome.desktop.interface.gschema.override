@@ -1,5 +1,5 @@
 [org.gnome.desktop.interface]
 enable-animations=true
 font-name='Clear Sans 10'
-gtk-theme='Arc'
-icon-theme='Moka'
+gtk-theme='Materia'
+icon-theme='Paper'
