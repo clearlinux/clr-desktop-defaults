@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION="16"
+VERSION="17"
 NAME="clr-desktop-defaults"
 ./scripts/git-archive-all.sh --format tar --prefix ${NAME}-${VERSION}/ --verbose -t HEAD ${NAME}-${VERSION}.tar
 xz -9 "${NAME}-${VERSION}.tar"
