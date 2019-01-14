@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Migrate dconf settings
+Comment=Migrate dconf settings
+Exec=@prefix@/libexec/clr-migrate-settings
+Terminal=false
+Type=Application
+Categories=
+NoDisplay=true
+OnlyShowIn=GNOME;

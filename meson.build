@@ -16,6 +16,7 @@ libexecdir = join_paths(prefix, get_option('libexecdir'))
 desktop_conf = configuration_data()
 desktop_conf.set('prefix', prefix)
 
+# Flathub
 configure_file(
     input: 'org.clearlinux.initFlathubRepo.desktop.in',
     output: 'org.clearlinux.initFlathubRepo.desktop',
@@ -23,6 +24,12 @@ configure_file(
     install_dir: join_paths(xdgdir, 'autostart')
 )
 
+install_data(
+    'clr-init-flathub-repo',
+    install_dir : libexecdir
+)
+
+# XFCE Desktop files
 configure_file(
     input: 'clr-desktop-files.desktop.in',
     output: 'clr-desktop-files.desktop',
@@ -35,8 +42,16 @@ install_data(
     install_dir : bindir
 )
 
+# Reset old dconf schemas to ensure new app-folders take
+configure_file(
+    input: 'clr-migrate-settings.desktop.in',
+    output: 'clr-migrate-settings.desktop',
+    configuration: desktop_conf,
+    install_dir: join_paths(xdgdir, 'autostart')
+)
+
 install_data(
-    'clr-init-flathub-repo',
+    'clr-migrate-settings',
     install_dir : libexecdir
 )
 
