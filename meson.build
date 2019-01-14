@@ -1,6 +1,6 @@
 project(
     'clr-desktop-defaults', 'c',
-    version : '17',
+    version : '18',
     license: 'MIT'
 )
 
