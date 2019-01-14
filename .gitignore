@@ -1,16 +1,2 @@
-Makefile
-Makefile.in
-aclocal.m4
-autom4te.cache/
-clr-desktop-files.desktop
-config.*
-configure
-install-sh
-missing
-
-# meson builddir
-builddir
-
-# gsettings merged override
-/*.override
-schemas/10_gnome_settings.gschema.override
+/build/
+/builddir/
