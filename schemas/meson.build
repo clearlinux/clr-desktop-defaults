@@ -1,4 +1,5 @@
 gnome_schemas = [
+    'org.gnome.desktop.app-folders.gschema.override',
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.input-sources.gschema.override',
     'org.gnome.desktop.interface.gschema.override',

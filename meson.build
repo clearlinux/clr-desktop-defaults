@@ -6,8 +6,8 @@ project(
 
 # Directory vars
 prefix = get_option('prefix')
-datadir = get_option('datadir')
-bindir = get_option('bindir')
+datadir = join_paths(prefix, get_option('datadir'))
+bindir = join_paths(prefix, get_option('bindir'))
 xdgdir = join_paths(datadir, 'xdg')
 schemasdir = join_paths(datadir, 'glib-2.0', 'schemas')
 systemddir = join_paths(prefix, 'lib', 'systemd')
@@ -40,5 +40,6 @@ install_data(
     install_dir : libexecdir
 )
 
+subdir('dconf')
 subdir('schemas')
 subdir('logind.conf.d')

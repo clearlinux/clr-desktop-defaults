@@ -1,0 +1,2 @@
+[org.gnome.desktop.app-folders]
+folder-children=['AudioVideo', 'Development', 'Education', 'Game', 'Network', 'Office', 'System-Tools', 'Utility-Accessibility', 'Utility', 'Utilities', 'Sundry']

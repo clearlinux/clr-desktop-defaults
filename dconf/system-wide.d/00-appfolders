@@ -1,0 +1,64 @@
+# dconf defaults for GNOME Shell appfolders
+# These correspond to our .directory files and must
+# match in name and categories, as well as mark
+# for translation.
+#
+# Use the name field from the given .directory file,
+# and try to match the name where possible. If it
+# has an X-GNOME prefix, then remove said prefix.
+#
+
+[org/gnome/desktop/app-folders/folders/AudioVideo]
+categories=['AudioVideo']
+name='Sound & Video'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Development]
+categories=['Development']
+name='Programming'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Education]
+categories=['Education']
+name='Education'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Game]
+categories=['Game']
+name='Games'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Network]
+categories=['Network']
+name='Internet'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Office]
+categories=['Office']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System-Tools]
+categories=['System-Tools']
+name='System Tools'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utility-Accessibility]
+categories=['Utility-Accessibility']
+name='Universal Access'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utility]
+categories=['Utility']
+name='Accessories'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+categories=['X-GNOME-Utilities']
+name='Utilities'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+categories=['X-GNOME-Sundry']
+name='Sundry'
+translate=true
