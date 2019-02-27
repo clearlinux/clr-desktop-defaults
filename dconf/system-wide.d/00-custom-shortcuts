@@ -1,0 +1,7 @@
+# dconf defaults for custom keybindings
+#
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Primary><Alt>t'
+command='/usr/bin/gnome-terminal'
+name='Launch Terminal'

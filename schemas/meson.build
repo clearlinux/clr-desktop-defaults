@@ -8,6 +8,7 @@ gnome_schemas = [
     'org.gnome.desktop.wm.preferences.gschema.override',
     'org.gnome.nautilus.icon-view.gschema.override',
     'org.gnome.nautilus.preferences.gschema.override',
+    'org.gnome.settings-daemon.plugins.media-keys.gschema.override',
     'org.gnome.settings-daemon.plugins.power.gschema.override',
     'org.gnome.settings-daemon.plugins.xsettings.gschema.override',
     'org.gnome.desktop.sound.gschema.override',
