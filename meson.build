@@ -58,3 +58,4 @@ install_data(
 subdir('dconf')
 subdir('schemas')
 subdir('logind.conf.d')
+subdir('fontconfig')
