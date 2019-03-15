@@ -1,0 +1,208 @@
+[org/gnome/terminal/legacy/profiles:/:1b7b838b-513d-4bf3-a2a2-725162b52365]
+allow-bold=true
+background-color='#323232323232'
+bold-color='#ffffffffffff'
+bold-color-same-as-fg=true
+foreground-color='#ffffffffffff'
+palette=['#353535353535', '#d2d252525252', '#a5a5c2c26161', '#ffffc6c66d6d', '#6c6c9999bbbb', '#d1d19797d9d9', '#bebed6d6ffff', '#eeeeeeeeecec', '#535353535353', '#f0f00c0c0c0c', '#c2c2e0e07575', '#e1e1e4e48b8b', '#8a8ab7b7d9d9', '#efefb5b5f7f7', '#dcdcf4f4ffff', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Espresso'
+
+[org/gnome/terminal/legacy/profiles:/:1bfbe7e3-97ee-4ad1-8f7a-1945bebbb65e]
+allow-bold=true
+background-color='#2d2d37374343'
+bold-color='#e1e1e1e1e0e0'
+bold-color-same-as-fg=true
+foreground-color='#e1e1e1e1e0e0'
+palette=['#000000000000', '#ffff42424242', '#7474afaf6868', '#ffffadad2929', '#33338f8f8686', '#94941414e6e6', '#2323d7d7d7d7', '#e1e1e1e1e0e0', '#555555555555', '#ffff32324242', '#7474cdcd6868', '#ffffb9b92929', '#2323d7d7d7d7', '#ffff3737ffff', '#0000edede1e1', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Misterioso'
+
+[org/gnome/terminal/legacy/profiles:/:257838d7-3040-4bb1-b655-2ff849664927]
+allow-bold=true
+background-color='#FFFFFFFFFFFF'
+bold-color='#4D4D4D4D4C4C'
+bold-color-same-as-fg=true
+foreground-color='#4D4D4D4D4C4C'
+palette=['#000000000000', '#C8C828282828', '#71718C8C0000', '#EAEAB7B70000', '#41417171AEAE', '#89895959A8A8', '#3E3E99999F9F', '#FFFFFEFEFEFE', '#000000000000', '#C8C828282828', '#70708B8B0000', '#E9E9B6B60000', '#41417070AEAE', '#89895858A7A7', '#3D3D99999F9F', '#FFFFFEFEFEFE']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Tomorrow'
+
+[org/gnome/terminal/legacy/profiles:/:2b2bc9ec-5d26-4f34-9838-8c5afafe3683]
+allow-bold=true
+background-color='#000024245151'
+bold-color='#FFFFFEFEFEFE'
+bold-color-same-as-fg=true
+foreground-color='#FFFFFEFEFEFE'
+palette=['#000000000000', '#FFFF9D9DA3A3', '#D1D1F1F1A9A9', '#FFFFEEEEADAD', '#BBBBDADAFFFF', '#EBEBBBBBFFFF', '#9999FFFFFFFF', '#FFFFFEFEFEFE', '#000000000000', '#FFFF9C9CA3A3', '#D0D0F0F0A8A8', '#FFFFEDEDACAC', '#BABADADAFFFF', '#EBEBBABAFFFF', '#9999FFFFFFFF', '#FFFFFEFEFEFE']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Tomorrow Night Blue'
+
+[org/gnome/terminal/legacy/profiles:/:39bf5ef9-ace1-4f35-9b15-8b07717547ea]
+allow-bold=true
+background-color='#28282a2a3636'
+bold-color='#9494A3A3A5A5'
+bold-color-same-as-fg=true
+foreground-color='#9494A3A3A5A5'
+palette=['#444447475a5a', '#ffff55555555', '#5050fafa7b7b', '#ffffb8b86c6c', '#8b8be9e9fdfd', '#bdbd9393f9f9', '#ffff7979c6c6', '#9494A3A3A5A5', '#000000000000', '#ffff55555555', '#5050fafa7b7b', '#ffffb8b86c6c', '#8b8be9e9fdfd', '#bdbd9393f9f9', '#ffff7979c6c6', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Dracula'
+
+[org/gnome/terminal/legacy/profiles:/:3ecdf162-21fc-4070-84ac-4c0e8e4b5264]
+allow-bold=true
+background-color='#19191f1f1d1d'
+bold-color='#d9d9e6e6f2f2'
+bold-color-same-as-fg=true
+foreground-color='#d9d9e6e6f2f2'
+palette=['#303030303030', '#a8a871713939', '#3939a8a87171', '#7171a8a83939', '#71713939a8a8', '#a8a839397171', '#39397171a8a8', '#8a8a8a8a8a8a', '#494949494949', '#b0b076763b3b', '#3b3bb0b07676', '#7676b0b03b3b', '#76763b3bb0b0', '#b0b03b3b7676', '#3b3b7676b0b0', '#cfcfcfcfcfcf']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Vag'
+
+[org/gnome/terminal/legacy/profiles:/:4a0673f1-6821-48eb-a963-f7972a6cf0db]
+allow-bold=true
+background-color='#d5d5ccccbaba'
+bold-color='#454537373c3c'
+bold-color-same-as-fg=true
+foreground-color='#454537373c3c'
+palette=['#202011111b1b', '#bebe10100e0e', '#858581816262', '#eaeaa5a54949', '#42426a6a7979', '#979752522c2c', '#98989a9a9c9c', '#96968c8c8383', '#5e5e52525252', '#bebe10100e0e', '#858581816262', '#eaeaa5a54949', '#42426a6a7979', '#979752522c2c', '#98989a9a9c9c', '#d5d5ccccbaba']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Belafonte Day'
+
+[org/gnome/terminal/legacy/profiles:/:55bc2a7d-e4fa-4815-b3b5-e20b5484dc16]
+allow-bold=true
+background-color='#dfdfdbdbc3c3'
+bold-color='#3b3b23232222'
+bold-color-same-as-fg=true
+foreground-color='#3b3b23232222'
+palette=['#000000000000', '#cccc00000000', '#000096960000', '#d0d06b6b0000', '#00000000cccc', '#cccc0000cccc', '#00008787cccc', '#cccccccccccc', '#808080808080', '#cccc00000000', '#000096960000', '#d0d06b6b0000', '#00000000cccc', '#cccc0000cccc', '#00008787cccc', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Novel'
+
+[org/gnome/terminal/legacy/profiles:/:5aa432c3-4826-4d7a-bc9f-6519a8c2a7ba]
+allow-bold=true
+background-color='#131377773d3d'
+bold-color='#fffff0f0a5a5'
+bold-color-same-as-fg=true
+foreground-color='#fffff0f0a5a5'
+palette=['#000000000000', '#bbbb00000000', '#0000bbbb0000', '#e7e7b0b00000', '#00000000a3a3', '#959500006262', '#0000bbbbbbbb', '#bbbbbbbbbbbb', '#555555555555', '#bbbb00000000', '#0000bbbb0000', '#e7e7b0b00000', '#00000000bbbb', '#ffff5555ffff', '#5555ffffffff', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Grass'
+
+[org/gnome/terminal/legacy/profiles:/:689ab7b6-5891-48cf-9846-710178e4b5b4]
+allow-bold=true
+background-color='#22224f4fbcbc'
+bold-color='#ffffffffffff'
+bold-color-same-as-fg=true
+foreground-color='#ffffffffffff'
+palette=['#000000000000', '#999900000000', '#0000a6a60000', '#999999990000', '#00000000b2b2', '#b2b20000b2b2', '#0000a6a6b2b2', '#bfbfbfbfbfbf', '#666666666666', '#e5e500000000', '#0000d9d90000', '#e5e5e5e50000', '#00000000ffff', '#e5e50000e5e5', '#0000e5e5e5e5', '#e5e5e5e5e5e5']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Ocean'
+
+[org/gnome/terminal/legacy/profiles:/:6da00cd2-d67b-40dd-8b9c-2a7c62f75e8d]
+allow-bold=true
+background-color='#00000000a4a4'
+bold-color='#ffffffff4e4e'
+bold-color-same-as-fg=true
+foreground-color='#ffffffff4e4e'
+palette=['#4f4f4f4f4f4f', '#ffff6c6c6060', '#a8a8ffff6060', '#ffffffffb6b6', '#9696cbcbfefe', '#ffff7373fdfd', '#c6c6c5c5fefe', '#eeeeeeeeeeee', '#7c7c7c7c7c7c', '#ffffb6b6b0b0', '#ceceffffacac', '#ffffffffcccc', '#b5b5dcdcffff', '#ffff9c9cfefe', '#dfdfdfdffefe', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Borland'
+
+[org/gnome/terminal/legacy/profiles:/:7ac3f423-74e0-4955-b651-21295ad4c516]
+allow-bold=true
+background-color='#4A4A45453E3E'
+bold-color='#f2f2f2f2f2f2'
+bold-color-same-as-fg=true
+foreground-color='#f2f2f2f2f2f2'
+palette=['#303030303030', '#e1e132321a1a', '#6a6ab0b01717', '#ffffc0c00505', '#72729F9FCFCF', '#ecec00004848', '#f2f2f2f2f2f2', '#2a2aa7a7e7e7', '#5d5d5d5d5d5d', '#ffff36361e1e', '#7b7bc9c91f1f', '#ffffd0d00a0a', '#00007171ffff', '#ffff1d1d6262', '#4b4bb8b8fdfd', '#a0a02020f0f0']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Elic'
+
+[org/gnome/terminal/legacy/profiles:/:9c8ef508-60cd-479c-92d8-e58ee9d20d6d]
+allow-bold=true
+background-color='#fbfbf1f1c7c7'
+bold-color='#3c3c38383636'
+bold-color-same-as-fg=true
+foreground-color='#3c3c38383636'
+palette=['#fbfbf1f1c7c7', '#cccc24241d1d', '#989897971a1a', '#d7d799992121', '#454585858888', '#b1b162628686', '#68689d9d6a6a', '#7c7c6f6f6464', '#929283837474', '#9d9d00000606', '#797974740e0e', '#b5b576761414', '#070766667878', '#8f8f3f3f7171', '#42427b7b5858', '#3c3c38383636']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Gruvbox'
+
+[org/gnome/terminal/legacy/profiles:/:9e60a94c-1a7d-4212-a692-1e58c0981a2c]
+allow-bold=true
+background-color='#222223232424'
+bold-color='#babababababa'
+bold-color-same-as-fg=true
+foreground-color='#babababababa'
+palette=['#000000000000', '#e8e834341c1c', '#6868c2c25656', '#f2f2d4d42c2c', '#1c1c9898e8e8', '#8e8e6969c9c9', '#1c1c9898e8e8', '#babababababa', '#000000000000', '#e0e05a5a4f4f', '#7777b8b86969', '#efefd6d64b4b', '#38387c7cd3d3', '#95957b7bbebe', '#3d3d9797e2e2', '#babababababa']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Darkside'
+
+[org/gnome/terminal/legacy/profiles:/:bfbdc9d7-a836-460a-81b0-f1e5070da88d]
+allow-bold=true
+background-color='#1c1c1c1c1c1c'
+bold-color='#ddddeeeedddd'
+bold-color-same-as-fg=true
+foreground-color='#ddddeeeedddd'
+palette=['#3d3d35352a2a', '#cdcd5c5c5c5c', '#8686afaf8080', '#e8e8aeae5b5b', '#64649595eded', '#dedeb8b88787', '#b0b0c4c4dede', '#bbbbaaaa9999', '#555544444444', '#cccc55553333', '#8888aaaa2222', '#ffffa7a75d5d', '#8787ceceebeb', '#999966660000', '#b0b0c4c4dede', '#ddddccccbbbb']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Arthur'
+
+[org/gnome/terminal/legacy/profiles:/:c318517c-23fb-421b-8d79-8614a547af47]
+allow-bold=true
+background-color='#010128284949'
+bold-color='#a9a9bebed8d8'
+bold-color-same-as-fg=true
+foreground-color='#a9a9bebed8d8'
+palette=['#2c2c24242323', '#f5f55757a0a0', '#a9a9eeee5555', '#f5f5a2a25555', '#5e5ea2a2ecec', '#a9a95757ecec', '#5e5eeeeea0a0', '#919189898888', '#919189898888', '#f5f57979b2b2', '#bbbbeeee7878', '#f5f5b3b37878', '#8181b3b3ecec', '#bbbb7979ecec', '#8181eeeeb2b2', '#f5f5eeeeecec']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Bim'
+
+[org/gnome/terminal/legacy/profiles:/:c35876a0-b664-495a-be94-716a755632f0]
+allow-bold=true
+background-color='#2b2b2b2b2b2b'
+bold-color='#e6e6e1e1dcdc'
+bold-color-same-as-fg=true
+foreground-color='#e6e6e1e1dcdc'
+palette=['#000000000000', '#dada49493939', '#51519f9f5050', '#ffffd2d24a4a', '#6d6d9c9cbebe', '#d0d0d0d0ffff', '#6e6e9c9cbebe', '#ffffffffffff', '#323232323232', '#ffff7b7b6b6b', '#8383d1d18282', '#ffffffff7c7c', '#9f9fcecef0f0', '#ffffffffffff', '#a0a0cecef0f0', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Broadcast'
+
+[org/gnome/terminal/legacy/profiles:/:c7e615a7-9b24-41f7-8c45-6ed53e782a63]
+allow-bold=true
+background-color='#1f1f1d1d4545'
+bold-color='#f8f8dcdcc0c0'
+bold-color-same-as-fg=true
+foreground-color='#f8f8dcdcc0c0'
+palette=['#050504040404', '#bdbd00001313', '#4a4ab1b11818', '#e7e774741e1e', '#0f0f4a4ac6c6', '#666659599393', '#7070a5a59898', '#f8f8dcdcc0c0', '#4e4e7c7cbfbf', '#fcfc5f5f5a5a', '#9e9effff6e6e', '#efefc1c11a1a', '#19199797c6c6', '#9b9b59595353', '#c8c8fafaf4f4', '#f6f6f5f5fbfb']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Adventure Time'
+
+[org/gnome/terminal/legacy/profiles:/:cd740fac-a35c-4b69-a229-9a26a3a99767]
+allow-bold=true
+background-color='#202011111b1b'
+bold-color='#96968c8c8383'
+bold-color-same-as-fg=true
+foreground-color='#96968c8c8383'
+palette=['#202011111b1b', '#bebe10100e0e', '#858581816262', '#eaeaa5a54949', '#42426a6a7979', '#979752522c2c', '#98989a9a9c9c', '#96968c8c8383', '#5e5e52525252', '#bebe10100e0e', '#858581816262', '#eaeaa5a54949', '#42426a6a7979', '#979752522c2c', '#98989a9a9c9c', '#d5d5ccccbaba']
+use-theme-background=false
+use-theme-colors=false
+visible-name='Belafonte Night'

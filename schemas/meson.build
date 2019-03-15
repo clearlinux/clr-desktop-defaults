@@ -18,6 +18,7 @@ gnome_schemas = [
     'org.gnome.shell.extensions.user-theme.gschema.override',
     'org.gnome.shell.gschema.override',
     'org.gnome.Terminal.Legacy.Settings.gschema.override',
+    'org.gnome.Terminal.ProfilesList.gschema.override',
     'org.gtk.Settings.FileChooser.gschema.override',
 ]
 
