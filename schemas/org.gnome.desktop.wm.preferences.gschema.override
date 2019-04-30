@@ -1,4 +1,4 @@
 [org.gnome.desktop.wm.preferences]
 button-layout='appmenu:minimize,maximize,close'
-theme='Materia'
+theme='Materia-compact'
 titlebar-font='Clear Sans Bold 11'
