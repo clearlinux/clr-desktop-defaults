@@ -1,4 +1,5 @@
 [org.gnome.shell.extensions.dash-to-dock]
+animate-show-apps=false
 apply-custom-theme=false
 click-action='minimize-or-overview'
 custom-background-color=false
