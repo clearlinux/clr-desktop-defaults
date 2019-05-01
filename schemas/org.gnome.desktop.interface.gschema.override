@@ -3,3 +3,4 @@ enable-animations=true
 font-name='Clear Sans 10'
 gtk-theme='Materia'
 icon-theme='Paper'
+cursor-blink=false
