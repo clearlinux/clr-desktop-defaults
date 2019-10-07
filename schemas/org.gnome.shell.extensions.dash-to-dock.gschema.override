@@ -17,3 +17,4 @@ shift-click-action='minimize'
 shift-middle-click-action='launch'
 transparency-mode='ADAPTIVE'
 unity-backlit-items=false
+show-trash=false
