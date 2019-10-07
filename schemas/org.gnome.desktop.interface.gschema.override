@@ -1,5 +1,5 @@
 [org.gnome.desktop.interface]
-enable-animations=true
+enable-animations=false
 font-name='Clear Sans 10'
 gtk-theme='Materia-compact'
 icon-theme='Paper'
