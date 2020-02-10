@@ -1,0 +1,4 @@
+[org.gnome.desktop.interface]
+font-name='Clear Sans 10'
+gtk-theme='Materia-compact'
+icon-theme='Paper'

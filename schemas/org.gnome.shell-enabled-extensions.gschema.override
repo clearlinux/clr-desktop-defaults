@@ -1,0 +1,2 @@
+[org.gnome.shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'desktop-icons@csoriano', 'impatience@gfxmonk.net', 'user-theme@gnome-shell-extensions.gcampax.github.com']
