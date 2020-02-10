@@ -10,4 +10,4 @@ License
 
 clr-desktop-defaults is available under the terms of the `MIT` license.
 
-Copyright © 2016-2019 Intel Corporation
+Copyright © 2016-2020 Intel Corporation
